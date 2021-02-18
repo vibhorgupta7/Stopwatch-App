@@ -1,0 +1,108 @@
+body {
+     background-color: black; 
+}
+
+#watch{
+    margin-top: -2%;
+}
+
+#watch h1 {
+    color:#fd7302;
+    /* border: #FF8000 2px solid; */
+    text-align: center;
+    font-size:600%;
+    font-weight: 200;
+    font-style: sans-serif;
+    letter-spacing: 8px;
+
+}
+
+#box{
+    width: 45%;
+    height: 90%;
+    margin: 3% 27%;
+    border: black 8px solid;
+}
+
+#buttons{
+    display: inline-block;
+    /* border: yellow 2px solid;  */
+    width: 100%;
+}
+ button{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:19px;
+    margin: -20px 70px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+} 
+
+#button-1{
+    float: left;
+    background-color: #353535;
+    color:#B5B5B5;
+    border: 5px solid #242323 ;
+     
+}
+
+#button-g{
+    float: right;
+    background-color:#5b775a ;
+    color:#8D231E;
+    border: 5px solid #466343 ;
+    color: grey;
+}
+
+#button-2{
+    float: right;
+    background-color:#351614 ;
+    color:#8D231E;
+    border: 5px solid #200b09 ;
+    
+}
+
+.time{
+    width: 100%;
+    height: 70%;
+    /* border: pink 2px solid; */
+    margin-top: 7%;
+    
+}
+
+.lapTime{
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    border: 1px grey solid;
+    border-left:0px;
+    border-right: 0px;
+    
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    color: grey;
+    margin-top: 16px;
+
+}
+.lapc{
+    float: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font: sans-serif;
+    
+}
+.lapt{
+    float: right;
+    letter-spacing: 5px;
+    color: rgb(206, 203, 203);
+    font-size: 20px;
+    font: sans-serif;
+    font-style: bolder;
+}
